@@ -6,6 +6,11 @@ pipeline {
                 sh 'mvn --version'
             }
         }
+        stage('deploy') {
+            steps {
+                sh 'todo'
+            }
+        }
     }
 }
 
