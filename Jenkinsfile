@@ -8,7 +8,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'todo'
+                sh 'echo todo'
             }
         }
     }
